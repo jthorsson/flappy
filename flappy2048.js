@@ -219,7 +219,7 @@ var gameLoaded = function () {
   }
  }
  
- bird.setValue(5);
+ bird.setValue(1);
  
 }
 
@@ -252,7 +252,7 @@ var doFlap = function () {
   
   bird.stuck_on_bottom = false;
   bird.stuck_on_top = false;
-  bird.setValue(5); //changed 1 to 5 jthorsson
+  bird.setValue(1); //changed 1 to 5 jthorsson
   bird.dsz = 0;
   bird.ww = cell_size;// + 150;
   bird.div.style.width = bird.ww+'px';
@@ -585,7 +585,7 @@ var vstrs = ['1'];
 var getValueStr = function (num) {
  while (vstrs.length <= num) {
   var s = vstrs[vstrs.length - 1];
-  var n = 0;
+  var n = 5;
   var r = 0;
   var fs = '';
   for (var i = s.length-1; i>=0; i--) {
