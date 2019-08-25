@@ -332,7 +332,7 @@ var wing = {};
 wing.fr = 0;
 wing.vfr = 0;
 
-wing.img = loadGameImage('wing.png'); // 150 x 131
+wing.img = loadGameImage('One.PNG.png'); // 150 x 131
 wing.canvas = document.createElement('canvas');
 wing.canvas.width = 150;
 wing.canvas.height = 131;
