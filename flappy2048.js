@@ -252,7 +252,7 @@ var doFlap = function () {
   
   bird.stuck_on_bottom = false;
   bird.stuck_on_top = false;
-  bird.setValue(1);
+  bird.setValue(5); //changed 1 to 5 jthorsson
   bird.dsz = 0;
   bird.ww = cell_size;// + 150;
   bird.div.style.width = bird.ww+'px';
