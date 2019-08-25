@@ -219,7 +219,7 @@ var gameLoaded = function () {
   }
  }
  
- bird.setValue(1);
+ bird.setValue(5);
  
 }
 
@@ -1179,7 +1179,7 @@ var oef = function () {
      if (bird.dang > .5) bird.dang = .5;
     }
     
-    
+
     
     bird.updatePos();
     var div = bird.div;
