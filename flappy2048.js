@@ -226,6 +226,7 @@ var gameLoaded = function () {
 
 
 
+
 var last_flap_tm = 0;
 var doFlap = function () {
  if (game.ended) { // then we have to set ended=false with the play again button
