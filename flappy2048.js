@@ -332,12 +332,11 @@ var wing = {};
 wing.fr = 0;
 wing.vfr = 0;
 
-wing.img = loadGameImage('One.PNG.png'); // 150 x 131
+wing.img = loadGameImage('numberblockone.png'); // 150 x 131
 wing.canvas = document.createElement('canvas');
 wing.canvas.width = 150;
 wing.canvas.height = 131;
 wing.ctx = wing.canvas.getContext('2d');
-
 wing.canvas2 = document.createElement('canvas');
 wing.canvas2.width = 150;
 wing.canvas2.height = 131;
@@ -350,7 +349,7 @@ wing.ctx2 = wing.canvas2.getContext('2d');
 
 var wingfill = {};
 
-wingfill.img = loadGameImage('wingfill.png'); // 150 x 131
+wingfill.img = loadGameImage('numberblockone.png'); // 150 x 131
 wingfill.canvas = document.createElement('canvas');
 wingfill.canvas.width = 150;
 wingfill.canvas.height = 131;
